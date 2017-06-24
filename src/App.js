@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Tweet from './Card.js'
+import Card from './Components/Card/Card.js'
 
 
 class App extends Component {
   render() {
     return (
-      <div>
-
+      <div className="test">
+        <Card />
       </div>
     );
   }
