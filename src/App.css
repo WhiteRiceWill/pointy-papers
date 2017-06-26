@@ -22,7 +22,7 @@
 
 .downloadBox {
 position: absolute;
-  background-color: green;
+
   width: 360px;
   height: 43px;
 
@@ -38,7 +38,7 @@ position: absolute;
   background-color: #FD5C63;
   border: none;
   color: white;
-  margin: auto;
+
 
 }
 
@@ -47,13 +47,17 @@ position: absolute;
   position: absolute;
   width: 210px;
   height: 43px;
-  background-color: blue;
+
 }
 .innerDownload {
   position: absolute;
-
+  width: 210px;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
+  padding-left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #686868;
 
-  width: 190px;
 }

@@ -11,7 +11,7 @@ export default class Download extends Component{
         </button>
         <div className="outerDownload">
           <div className="innerDownload">
-          <p>auidsf iasdf hsidh fsidhf iush dfius hdiufs udifh </p>
+          <p>auidsf iasdf hsidh fsidhf iush u hdiufs udifh </p>
           </div>
         </div>
 
