@@ -7,15 +7,53 @@
 
 .card {
   background-color: #FFFFFF;
-  width: 360px;
+  width: 380px;
   height: 550px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cardimg {
-  width: 340px;
+  width: 360px;
   height: auto;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.downloadBox {
+position: absolute;
+  background-color: green;
+  width: 360px;
+  height: 43px;
+
+}
+
+.downloadBtn {
+position: absolute;
+  height:43px;
+  width: 140px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #FD5C63;
+  border: none;
+  color: white;
+  margin: auto;
+
+}
+
+.outerDownload {
+  margin-left: 150px;
+  position: absolute;
+  width: 210px;
+  height: 43px;
+  background-color: blue;
+}
+.innerDownload {
+  position: absolute;
+
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 190px;
 }

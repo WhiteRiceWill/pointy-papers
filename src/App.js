@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Card from './Components/Card/Card.js'
+import Card from './Components/Card/Card.js';
 
 
 class App extends Component {
@@ -8,6 +8,9 @@ class App extends Component {
     return (
       <div className="test">
         <Card />
+        <div className="testy">
+        <p>yo yo </p>
+        </div>
       </div>
     );
   }
