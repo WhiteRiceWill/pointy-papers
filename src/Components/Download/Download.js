@@ -5,16 +5,13 @@ export default class Download extends Component{
     return (
 
       <div className="downloadBox">
-        <button type="button" className="downloadBtn">
+        <div className="tooltip">
+          <button type="button" className="downloadBtn">
           Samsung Galaxy S8<br/>
           (5120 x 2880)
-        </button>
-        <div className="outerDownload">
-          <div className="innerDownload">
-          <p>auidsf iasdf hsidh fsidhf iush u hdiufs udifh </p>
-          </div>
+          </button>
+          <span className="tooltipText">{this.props.description}</span>
         </div>
-
       </div>
 
     );
