@@ -2,19 +2,37 @@ import React, { Component } from 'react';
 
 export default class Download extends Component{
   render() {
-    return (
+    var desc = this.props.description;
 
-      <div className="downloadBox">
-        <div className="tooltip">
-          <button type="button" className="downloadBtn">
-          Samsung Galaxy S8<br/>
-          (5120 x 2880)
-          </button>
-          <span className="tooltipText">{this.props.description}</span>
+    if(this.props.hasDesc){
+      return (
+
+        <div className="downloadBox">
+          <div className="tooltip">
+            <button type="button" className="downloadBtn">
+            {this.props.titleA} <br/> {this.props.titleB}
+            </button>
+            <span className="tooltipText">{desc}</span>
+          </div>
         </div>
-      </div>
 
-    );
+      );
+    }
+    else {
+      return (
+
+        <div className="downloadBox">
+          <div className= "tooltip">
+          <button type="button" className="downloadBtn">
+            {this.props.titleA} <br/> {this.props.titleB}
+          </button>
+          </div>
+        </div>
+
+
+      );
+    }
+
   }
 };
 

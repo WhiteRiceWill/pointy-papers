@@ -57,9 +57,10 @@ position: absolute;
 
 .tooltip .tooltipText {
     visibility: hidden;
-    width: 140px;
+    width: 100px;
+    margin-left: 20px;
     margin-top: 50px;
-    background-color: #F5F5F5;
+    background-color: rgba(235, 235, 235, .97);
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -68,6 +69,8 @@ position: absolute;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
 
 
 }
@@ -80,7 +83,8 @@ position: absolute;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #F5F5F5 transparent;
+    border-color: transparent transparent rgba(235, 235, 235, .97) transparent;
+
 }
 
 .tooltip:hover .tooltipText {
