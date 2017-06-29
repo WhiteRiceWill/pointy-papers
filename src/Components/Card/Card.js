@@ -57,7 +57,7 @@ export default class Card extends Component{
     <p>Download</p>
     </div>
 
-    
+      <div className="downloadColumn1">
         <Download
           titleA={title1A}
           titleB={title1B}
@@ -87,6 +87,45 @@ export default class Card extends Component{
           hasDesc={true}
           description={desc5}
         />
+    </div>
+
+    <div className="downloadColumn2">
+      <Download
+        titleA={title1A}
+        titleB={title1B}
+        hasDesc={false}
+      />
+      <Download
+        titleA={title2A}
+        titleB={title2B}
+        hasDesc={true}
+        description={desc2}
+      />
+      <Download
+        titleA={title3A}
+        titleB={title3B}
+        hasDesc={true}
+        description={desc3}
+      />
+      <Download
+        titleA={title4A}
+        titleB={title4B}
+        hasDesc={true}
+        description={desc4}
+      />
+      <Download
+        titleA={title5A}
+        titleB={title5B}
+        hasDesc={true}
+        description={desc5}
+      />
+      <Download
+        titleA={title5A}
+        titleB={title5B}
+        hasDesc={true}
+        description={desc5}
+      />
+  </div>
 
 
 
