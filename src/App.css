@@ -6,7 +6,7 @@
 .card {
   background-color: #FFFFFF;
   width: 380px;
-  height: 540px;
+  height: 565px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -16,7 +16,7 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: -4px;
+  margin-bottom: -10px;
 }
 
 .downloadColumn1 {
@@ -31,12 +31,14 @@
 .downloadHeader {
   width: 140px;
   text-align: center;
-  margin-left: 10px;
-  margin-bottom: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -45px;
+  margin-top: 5px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  color: #909090;
+  font-size: 16px;
+  font-weight: 800;
+  color: #707070;
 }
 
 .downloadBox {
@@ -73,7 +75,7 @@ height: 43px;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
-    color: #484848;
+    color: #909090;
     text-align: center;
     padding: 5px 0;
     position: absolute;

@@ -91,40 +91,30 @@ export default class Card extends Component{
 
     <div className="downloadColumn2">
       <Download
-        titleA={title1A}
-        titleB={title1B}
+        titleA={title6A}
+        titleB={title6B}
+        hasDesc={true}
+        description={desc6}
+      />
+      <Download
+        titleA={title7A}
+        titleB={title7B}
+        hasDesc={true}
+        description={desc7}
+      />
+      <Download
+        titleA={title8A}
+        titleB={title8B}
         hasDesc={false}
+
       />
       <Download
-        titleA={title2A}
-        titleB={title2B}
-        hasDesc={true}
-        description={desc2}
+        titleA={title9A}
+        titleB={title9B}
+        hasDesc={false}
+
       />
-      <Download
-        titleA={title3A}
-        titleB={title3B}
-        hasDesc={true}
-        description={desc3}
-      />
-      <Download
-        titleA={title4A}
-        titleB={title4B}
-        hasDesc={true}
-        description={desc4}
-      />
-      <Download
-        titleA={title5A}
-        titleB={title5B}
-        hasDesc={true}
-        description={desc5}
-      />
-      <Download
-        titleA={title5A}
-        titleB={title5B}
-        hasDesc={true}
-        description={desc5}
-      />
+
   </div>
 
 
