@@ -30,23 +30,12 @@ var title8B = "(1440 x 2960)";
 var title9A = "Twitter";
 var title9B = "(1500 x 500)";
 
-
-
-
-
-
 var desc2 = "Also fits 2560x1440";
 var desc3 = "Also fits 3440x1440 and 2560x1080";
 var desc4 = "Also fits 2560x1600 and 2304x1440";
 var desc5 = "Also fits 1280x720";
 var desc6 = "Also fits 2224x2224 and 2048x2048";
 var desc7 = "Also fits 750x1334";
-
-
-
-
-
-
 
 export default class Card extends Component{
   render() {
@@ -62,30 +51,40 @@ export default class Card extends Component{
           titleA={title1A}
           titleB={title1B}
           hasDesc={false}
+          imgNum={this.props.imgNum}
+          imgType="5K"
         />
         <Download
           titleA={title2A}
           titleB={title2B}
           hasDesc={true}
           description={desc2}
+          imgNum={this.props.imgNum}
+          imgType="4K"
         />
         <Download
           titleA={title3A}
           titleB={title3B}
           hasDesc={true}
           description={desc3}
+          imgNum={this.props.imgNum}
+          imgType="UltraWide"
         />
         <Download
           titleA={title4A}
           titleB={title4B}
           hasDesc={true}
           description={desc4}
+          imgNum={this.props.imgNum}
+          imgType="MacBook"
         />
         <Download
           titleA={title5A}
           titleB={title5B}
           hasDesc={true}
           description={desc5}
+          imgNum={this.props.imgNum}
+          imgType="HD"
         />
     </div>
 
@@ -95,24 +94,30 @@ export default class Card extends Component{
         titleB={title6B}
         hasDesc={true}
         description={desc6}
+        imgNum={this.props.imgNum}
+        imgType="Tablet"
       />
       <Download
         titleA={title7A}
         titleB={title7B}
         hasDesc={true}
         description={desc7}
+        imgNum={this.props.imgNum}
+        imgType="Smartphone"
       />
       <Download
         titleA={title8A}
         titleB={title8B}
         hasDesc={false}
-
+        imgNum={this.props.imgNum}
+        imgType="GalaxyS8"
       />
       <Download
         titleA={title9A}
         titleB={title9B}
         hasDesc={false}
-
+        imgNum={this.props.imgNum}
+        imgType="Twitter"
       />
 
   </div>

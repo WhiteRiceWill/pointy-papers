@@ -60,6 +60,12 @@ height: 43px;
   border: none;
   color: white;
 }
+.downloadBtn:hover {
+  background: #FF737D;
+}
+.downloadBtn:visited {
+  background: black;
+}
 
 .tooltip {
     position: relative;
