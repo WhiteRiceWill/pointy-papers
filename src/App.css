@@ -1,7 +1,18 @@
-.feed {
-  margin: auto;
-  width: 777px;
+.navBar {
+  top: 0;
+  position:fixed;
+  z-index:1;
+  width: 100%;
+  height:56px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
 
+.feed {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 777px;
 }
 
 .feedLeft {
@@ -19,7 +30,7 @@
   margin-top: 17px;
   width: 380px;
   height: 565px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cardimg {
@@ -117,7 +128,7 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
 
