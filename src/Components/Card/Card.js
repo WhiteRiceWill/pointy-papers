@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Download from '../Download/Download.js';
-import TestPic from '../../Assets/Paper4/PP4-4K.png';
 
 var title1A = "5K";
 var title1B = "(5120 x 2880)";
@@ -38,9 +37,11 @@ var desc7 = "Also fits 750x1334";
 
 export default class Card extends Component {
   render() {
+    const mainImg = require('../../Assets/Paper' + this.props.imgNum + '/PP' + this.props.imgNum +'-4K.png');
+
     return (
       <div className="card">
-        <img src={TestPic} alt="Test" className="cardimg"/>
+        <img src={mainImg} alt="Test" className="cardimg"/>
         <div className="downloadHeader">
           <p>Download</p>
         </div>
