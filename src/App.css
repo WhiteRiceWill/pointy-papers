@@ -42,72 +42,84 @@
 }
 
 .downloadBox {
-margin-top: 20px;
-margin-left: 10px;
-position: relative;
-width: 360px;
-height: 43px;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: relative;
+  width: 360px;
+  height: 43px;
 }
 
 .downloadBtn {
   position: absolute;
-  height:53px;
+  height: 53px;
   width: 175px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
   background-color: #FD5C63;
   border: none;
+  outline:none;
   color: white;
 }
+
 .downloadBtn:hover {
   background: #FF737D;
   cursor: pointer;
 }
 
-.thumbImg{
+.downloadBtnHolder {
+  position: absolute;
+  height: 53px;
+  width: 175px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #FF737D;
+  border: none;
+  outline:none;
+  color: white;
+}
+
+.thumbImg {
   margin-top: 5px;
   width: 35px;
   height: auto;
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .tooltip .tooltipText {
-    visibility: hidden;
-    width: 100px;
-    margin-left: 37.5px;
-    margin-top: 55px;
-    background-color: rgba(255, 255, 255, .97);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    color: #909090;
-    text-align: center;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
-
-
+  visibility: hidden;
+  width: 100px;
+  margin-left: 37.5px;
+  margin-top: 55px;
+  background-color: rgba(255, 255, 255, .97);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #909090;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
 }
 
 .tooltip .tooltipText::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent rgba(255, 255, 255, .97) transparent;
-
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(255, 255, 255, .97) transparent;
 }
 
 .tooltip:hover .tooltipText {
-    visibility: visible;
+  visibility: visible;
 }
