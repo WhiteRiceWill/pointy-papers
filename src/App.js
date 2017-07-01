@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Card from './Components/Card/Card.js';
+import Feed from './Components/Feed/Feed.js';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="test">
-        <Card imgNum="2"/>
+      <div className="feed">
+        <Feed/>
+        <div className="tester">
+
+        </div>
       </div>
     );
   }

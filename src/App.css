@@ -1,10 +1,22 @@
-.test {
-  margin-left: 200px;
-  margin-top: 50px;
+.feed {
+  margin: auto;
+  width: 777px;
+
+}
+
+.feedLeft {
+ position: absolute;
+}
+
+.feedRight {
+  position: absolute;
+  margin-left: 397px;
+  margin-top: 240px;
 }
 
 .card {
   background-color: #FFFFFF;
+  margin-top: 17px;
   width: 380px;
   height: 565px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

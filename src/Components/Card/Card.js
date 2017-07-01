@@ -35,6 +35,7 @@ var desc5 = "Also fits 1280x720";
 var desc6 = "Also fits 2224x2224 and 2048x2048";
 var desc7 = "Also fits 750x1334";
 
+
 export default class Card extends Component {
   render() {
     const mainImg = require('../../Assets/Paper' + this.props.imgNum + '/PP' + this.props.imgNum +'-4K.png');
