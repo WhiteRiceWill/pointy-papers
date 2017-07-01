@@ -64,8 +64,11 @@ height: 43px;
   background: #FF737D;
   cursor: pointer;
 }
-.downloadBtn:visited {
-  background: black;
+
+.thumbImg{
+  margin-top: 5px;
+  width: 35px;
+  height: auto;
 }
 
 .tooltip {
