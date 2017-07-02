@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TestPic from '../../Assets/Other/thumbEmoji.png';
+import emojiThumb from '../../Assets/Other/thumbEmoji.png';
 
 export default class Download extends Component {
   constructor() {
@@ -55,7 +55,7 @@ export default class Download extends Component {
         <div className="downloadBox">
           <div className="tooltip">
             <button className="downloadBtnHolder">
-              <img src={TestPic} alt="Test" className="thumbImg"/>
+              <img src={emojiThumb} alt="Thumbs Up Emoji" className="thumbImg"/>
             </button>
           </div>
         </div>

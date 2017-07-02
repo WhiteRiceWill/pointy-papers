@@ -42,7 +42,7 @@ export default class Card extends Component {
 
     return (
       <div className="card">
-        <img src={mainImg} alt="Test" className="cardimg"/>
+        <img src={mainImg} alt="Wallpaper Image" className="cardImg"/>
         <div className="downloadHeader">
           <p>Download</p>
         </div>
