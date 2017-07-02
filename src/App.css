@@ -5,7 +5,7 @@
   width: 100%;
   height:56px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
 }
 
 .logoImg {
@@ -17,11 +17,31 @@
   height: auto;
 }
 
+.menu {
+  float: right;
+  margin-top: -36px;
+  margin-right: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.menuLink {
+  color: #707070;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  color: #484848;
+}
+
 .feed {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 66px;
+  margin-top: 92px;
   width: 777px;
+  height: 2568px;
 }
 
 .feedLeft {
@@ -39,7 +59,7 @@
   margin-top: 17px;
   width: 380px;
   height: 565px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
 }
 
 .cardImg {
@@ -137,7 +157,7 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
   border-radius: 4px;
 }
 
@@ -154,4 +174,41 @@
 
 .tooltip:hover .tooltipText {
   visibility: visible;
+}
+
+.footer {
+  margin-top: 54px;
+  margin-bottom: 80px;
+}
+
+.footerLine {
+  margin-left: auto;
+  margin-right: auto;
+  width: 777px;
+  height: 1px;
+  background-color: #D8D8D8	;
+}
+
+.footerLicense {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #888888;
+  text-decoration: none;
+
+
+}
+
+.footerLicense:hover {
+  color: #888888;
+  text-decoration: underline;
+  text-decoration-color: #888888;
+}
+
+.licenseDiv {
+  margin-top: 10px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

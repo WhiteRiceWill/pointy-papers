@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import Feed from './Components/Feed/Feed.js';
 import NavBar from './Components/NavBar/NavBar.js';
+import Footer from './Components/Footer/Footer.js';
+
 
 class App extends Component {
   render() {
@@ -13,6 +15,9 @@ class App extends Component {
         <div className="feed">
           <Feed/>
           <div className="tester"></div>
+        </div>
+        <div>
+          <Footer/>
         </div>
       </div>
     );

@@ -6,6 +6,9 @@ export default class NavBar extends Component{
     return (
     <div className='navBar'>
       <img src={logoImg} alt="Pointy Papers Logo" className="logoImg"/>
+      <div className='menu'>
+        <a href="http://github.com" className='menuLink'>About</a>
+      </div>
     </div>
     );
   }
