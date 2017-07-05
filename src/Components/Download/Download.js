@@ -45,7 +45,6 @@ export default class Download extends Component {
     this.setState({currentCount: 2});
   }
 
-
   render() {
     var desc = this.props.description;
     const imgName = require('../../Assets/Paper' + this.props.imgNum + '/PP' + this.props.imgNum + '-' + this.props.imgType + '.png');

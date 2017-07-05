@@ -4,7 +4,6 @@ import Feed from './Components/Feed/Feed.js';
 import NavBar from './Components/NavBar/NavBar.js';
 import Footer from './Components/Footer/Footer.js';
 
-
 class App extends Component {
   render() {
     return (
