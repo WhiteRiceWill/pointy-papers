@@ -8,8 +8,8 @@ export default class NavBar extends Component{
     <div className='navBar'>
       <img src={logoImg} alt="Pointy Papers Logo" className="logoImg"/>
       <div className='menu'>
-        <Link to='/' className='menuLink'>Papers</Link>
-        <Link to='/about' className='menuLink'>About</Link>
+        <Link to='/' className='menuLink'>PAPERS</Link>
+        <Link to='/about' className='menuLink'>ABOUT</Link>
       </div>
     </div>
     );

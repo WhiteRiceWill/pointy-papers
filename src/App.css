@@ -3,7 +3,7 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  height: 56px;
+  height: 66px;
   background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
 }
@@ -12,7 +12,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3px;
+  margin-top: 10px;
   width: 300px;
   height: auto;
 }
@@ -21,19 +21,18 @@
   float: right;
   margin-top: -36px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
-  color: #707070;
 }
 
 .menuLink {
-  color: #707070;
+  color: #909090;
   text-decoration: none;
   margin-right: 25px;
 }
 
 .menuLink:hover {
-  color: #484848;
+  color: #B0B0B0;
 }
 
 .feed {
@@ -226,6 +225,61 @@
 }
 
 .freeLink {
-  text-decoration: none;
-  color: #FD5C63
+  color: #505050;
+  text-decoration:underline;
+}
+
+.background {
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+.licensePage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  width: 777px;
+  height: 1300px;
+}
+
+.aboutPage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  width: 777px;
+  height: 2568px;
+}
+
+
+.head {
+  font-family: 'Open Sans', sans-serif;
+  color: #383838;
+  font-size: 40px;
+  font-weight: 700;
+}
+.headTwo {
+  font-family: 'Open Sans', sans-serif;
+  color: #383838;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.miniHead {
+  font-family: 'Open Sans', sans-serif;
+  color: #989898;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.textBlock {
+font-family: 'Lora', serif;
+color: #383838;
+line-height: 180%;
+font-size: 19px;
+letter-spacing: .1px;
+}
+
+.bodyLink {
+  color: #383838;
+  text-decoration:underline;
 }

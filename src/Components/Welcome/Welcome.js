@@ -10,8 +10,8 @@ export default class Welcome extends Component{
             A collection of
           </div>
           <div>
-            <Link to='/license' className='freeLink'>free </Link>
-           to download,
+              <Link to='/license' className='freeLink'>free</Link>
+              &nbsp; to download,
           </div>
           <div>
             minimalist wallpapers.
