@@ -7,11 +7,10 @@ export default class Welcome extends Component{
       <div className="welcomeCard">
         <div className="welcomeText">
           <div>
-            Pointy Papers is a collection of
+            A collection of
           </div>
           <div>
             <Link to='/license' className='freeLink'>free </Link>
-
            to download,
           </div>
           <div>
