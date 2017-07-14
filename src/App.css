@@ -51,7 +51,6 @@
 .feedRight {
   position: absolute;
   margin-left: 397px;
-  margin-top: 240px;
 }
 
 .card {
@@ -209,4 +208,32 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.welcomeCard {
+  background-color: #FFFFFF;
+  margin-top: 17px;
+  width: 380px;
+  height: 223px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+.welcomeText {
+  width: 290px;
+  text-align: center;
+  padding-top: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -45px;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 170%;
+  color: #707070;
+}
+
+.freeLink {
+  text-decoration: none;
+  color: #FD5C63
 }
