@@ -20,7 +20,6 @@
 .menu {
   float: right;
   margin-top: -36px;
-  margin-right: 28px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -30,6 +29,7 @@
 .menuLink {
   color: #707070;
   text-decoration: none;
+  margin-right: 25px;
 }
 
 .menuLink:hover {

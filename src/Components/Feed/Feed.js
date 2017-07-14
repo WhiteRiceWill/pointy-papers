@@ -4,7 +4,7 @@ import Card from '../Card/Card.js';
 export default class Feed extends Component{
   render() {
     return (
-      <div>
+      <div className="feed">
       <div className="feedLeft">
         <Card imgNum="4"/>
         <Card imgNum="1"/>

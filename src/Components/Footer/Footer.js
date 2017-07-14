@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component{
   render() {
@@ -7,7 +8,7 @@ export default class Footer extends Component{
       <div className='footerLine'>
       </div>
       <div className="licenseDiv">
-        <a href="www.google.com" className='footerLicense'>License</a>
+        <Link to='/license' className='footerLicense'>License</Link>
       </div>
     </div>
     );

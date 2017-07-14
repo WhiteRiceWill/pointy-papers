@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import logoImg from '../../Assets/Other/PP-logo.png';
 
 export default class NavBar extends Component{
@@ -7,7 +8,8 @@ export default class NavBar extends Component{
     <div className='navBar'>
       <img src={logoImg} alt="Pointy Papers Logo" className="logoImg"/>
       <div className='menu'>
-        <a href="http://github.com" className='menuLink'>About</a>
+        <Link to='/' className='menuLink'>Papers</Link>
+        <Link to='/about' className='menuLink'>About</Link>
       </div>
     </div>
     );
