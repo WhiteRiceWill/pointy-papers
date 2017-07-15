@@ -16,6 +16,12 @@
   width: 300px;
   height: auto;
 }
+.logoDiv {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .menu {
   float: right;
@@ -260,7 +266,7 @@
 .headTwo {
   font-family: 'Open Sans', sans-serif;
   color: #383838;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
 }
 
