@@ -181,8 +181,8 @@
 }
 
 .footer {
-  margin-top: 54px;
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .footerLine {
@@ -235,17 +235,13 @@
   text-decoration:underline;
 }
 
-.background {
-  background-color: #FFFFFF;
-  overflow-x: hidden;
-}
-
 .licensePage {
   margin-left: auto;
   margin-right: auto;
   margin-top: 130px;
   width: 777px;
-  height: 1300px;
+  height: 100vh;
+  min-height: 300px;
 }
 
 .aboutPage {
@@ -253,7 +249,8 @@
   margin-right: auto;
   margin-top: 130px;
   width: 777px;
-  height: 2568px;
+  height: 100vh;
+  min-height: 830px;
 }
 
 
