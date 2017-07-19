@@ -6,8 +6,9 @@ import Hamburger from '../Hamburger/Hamburger.js';
 export default class NavBar extends Component{
   render() {
     return (
+      <div>
+        <Hamburger />
     <div className="navBar">
-      <Hamburger />
       <div className="logoDiv">
       <Link to='/'>
       <img src={logoImg} alt="Pointy Papers Logo" className="logoImg"/>
@@ -18,6 +19,7 @@ export default class NavBar extends Component{
         <Link to='/about' className='menuLink'>ABOUT</Link>
       </div>
     </div>
+  </div>
     );
   }
 };
