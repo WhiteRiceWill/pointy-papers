@@ -293,6 +293,30 @@ letter-spacing: .1px;
   text-decoration:underline;
 }
 
+.hamburgerMenu {
+  display: none;
+}
+
+.hamburgerImg {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  width: 55px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 791px) {
   .feed {
     width: 380px;
@@ -304,5 +328,11 @@ letter-spacing: .1px;
   }
   .footerLine {
     width: 380px;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburgerMenu {
+    display:block;
   }
 }

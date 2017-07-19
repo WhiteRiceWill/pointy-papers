@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logoImg from '../../Assets/Other/PP-logo.png';
+import Hamburger from '../Hamburger/Hamburger.js';
 
 export default class NavBar extends Component{
   render() {
     return (
     <div className="navBar">
+      <Hamburger />
       <div className="logoDiv">
       <Link to='/'>
       <img src={logoImg} alt="Pointy Papers Logo" className="logoImg"/>
