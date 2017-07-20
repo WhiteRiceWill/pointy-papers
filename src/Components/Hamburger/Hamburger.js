@@ -8,9 +8,11 @@ export default class Hamburger extends Component{
   constructor() {
     super();
     this.state = {
-      isToggleOn: false
+      isToggleOn: true,
+      firstClickHappened: false
     };
     this.toggleMenu = this.toggleMenu.bind(this);
+    this.toggleFirstClick = this.toggleFirstClick.bind(this);
   }
 
   toggleMenu() {
@@ -19,11 +21,21 @@ export default class Hamburger extends Component{
     }));
   }
 
+  toggleFirstClick() {
+    this.setState(prevState => ({
+      firstClickHappened: true
+    }));
+  }
 
 
+//make cursor be a hand when on drop down menu@@@@@@@@@@@@@@@@@@@ onhover maybe
 
 
   render() {
+    console.log("isToggleOn = " + this.state.isToggleOn);
+    console.log("firstClickHappened = " + this.state.firstClickHappened);
+
+  if (this.state.firstClickHappened) {
 
     if (this.state.isToggleOn) {
       return (
@@ -64,5 +76,28 @@ export default class Hamburger extends Component{
   </div>
       );
     }
+  }
+
+  else {
+    return (
+      <div>
+    <div className="hamburgerMenu">
+      <img src={arrowIcon} alt="Mobile Menu Icon" className="arrowNoClicks" onClick={this.toggleFirstClick} />
+    </div>
+    <div className="dropMenuNoClicks">
+      <ul className="dropMenuList">
+        <div className="dropMenuIndiv">
+        <Link to='/' className='dropMenuLinks'>PAPERS</Link>
+      </div>
+      <div className="dropMenuIndiv">
+        <Link to='/about' className='dropMenuLinks'>ABOUT</Link>
+      </div>
+      </ul>
+    </div>
+  </div>
+      );
+  }
+
+
   }
 };

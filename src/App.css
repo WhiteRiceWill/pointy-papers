@@ -300,6 +300,19 @@ letter-spacing: .1px;
   display: none;
 }
 
+.arrowNoClicks {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: auto;
+  height: 20px;
+  z-index: 6;
+}
+
+.arrowNoClicks:hover {
+  cursor: pointer;
+}
+
 .arrowOpen {
   position: absolute;
   top: 24px;
@@ -312,6 +325,10 @@ letter-spacing: .1px;
   transform: rotate(180deg);
 }
 
+.arrowOpen:hover {
+  cursor: pointer;
+}
+
 .arrowClose {
   position: absolute;
   top: 24px;
@@ -321,7 +338,20 @@ letter-spacing: .1px;
   z-index: 6;
   animation-name: arrowClose;
   animation-duration: .4s;
+}
 
+.arrowClose:hover {
+  cursor: pointer;
+}
+
+.dropMenuNoClicks {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 188px;
+  top: -122px;
+  z-index: 2;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
 }
 
 .dropMenuOpen {
@@ -333,8 +363,7 @@ letter-spacing: .1px;
   animation-name: open;
   animation-duration: .4s;
   z-index: 2;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
-
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.12), 0 12px 40px 0 rgba(0, 0, 0, 0.12);
 }
 
 .dropMenuClose {
@@ -347,7 +376,6 @@ letter-spacing: .1px;
   animation-duration: .4s;
   z-index: 2;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
-
 }
 
 .dropMenuList {
@@ -395,17 +423,26 @@ letter-spacing: .1px;
   .hamburgerMenu {
     display:block;
   }
+  .logoDiv {
+    width: 200px;
+    margin-left: 10px;
+  }
+  .logoImg {
+    display: block;
+    margin-top: 17px;
+    width: 200px;
+  }
 }
 
 
 
 @keyframes open {
-    0%   {transform: translate(0, -122px)};
+    0%   {transform: translate(0, -188px)};
     100% {transform: translate(0, 0)};
 }
 
 @keyframes close {
-  0% {transform: translate(0, 122px)};
+  0% {transform: translate(0, 188px)};
   100% {transform: translate(0, 0)};
 }
 
