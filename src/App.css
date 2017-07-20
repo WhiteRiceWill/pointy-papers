@@ -9,6 +9,8 @@
   width: 100%;
   height: 66px;
   background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
+
 }
 
 .logoImg {
@@ -110,7 +112,7 @@ float:left;
   margin-top: 20px;
   margin-left: 10px;
   position: relative;
-  width: 360px;
+  width: 175px;
   height: 43px;
 }
 
@@ -296,12 +298,12 @@ letter-spacing: .1px;
   text-decoration:underline;
 }
 
-.hamburgerMenu {
+.dropdownMenu {
   display: none;
 }
 
 .arrowNoClicks {
-  position: absolute;
+  position: fixed;
   top: 24px;
   right: 24px;
   width: auto;
@@ -314,7 +316,7 @@ letter-spacing: .1px;
 }
 
 .arrowOpen {
-  position: absolute;
+  position: fixed;
   top: 24px;
   right: 24px;
   width: auto;
@@ -330,7 +332,7 @@ letter-spacing: .1px;
 }
 
 .arrowClose {
-  position: absolute;
+  position: fixed;
   top: 24px;
   right: 24px;
   width: auto;
@@ -345,17 +347,18 @@ letter-spacing: .1px;
 }
 
 .dropMenuNoClicks {
-  position: absolute;
+  position: fixed;
   background-color: white;
   width: 100%;
   height: 188px;
   top: -122px;
   z-index: 2;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
+  visibility: hidden;
 }
 
 .dropMenuOpen {
-  position: absolute;
+  position: fixed;
   background-color: white;
   width: 100%;
   height: 188px;
@@ -364,10 +367,11 @@ letter-spacing: .1px;
   animation-duration: .4s;
   z-index: 2;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.12), 0 12px 40px 0 rgba(0, 0, 0, 0.12);
+  visibility: hidden;
 }
 
 .dropMenuClose {
-  position: absolute;
+  position: fixed;
   background-color: white;
   width: 100%;
   height: 188px;
@@ -376,10 +380,12 @@ letter-spacing: .1px;
   animation-duration: .4s;
   z-index: 2;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.02), 0 12px 40px 0 rgba(0, 0, 0, 0.02);
+  visibility: hidden;
 }
 
 .dropMenuList {
   margin-top: 46px;
+  margin-left: -16px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -392,7 +398,6 @@ letter-spacing: .1px;
 .dropMenuLinks {
   color: #909090;
   text-decoration: none;
-  margin-right: 25px;
 }
 
 
@@ -420,17 +425,29 @@ letter-spacing: .1px;
   .menu {
     display: none;
   }
-  .hamburgerMenu {
+  .dropdownMenu {
     display:block;
   }
   .logoDiv {
     width: 200px;
-    margin-left: 10px;
+    margin-left: 21px;
   }
   .logoImg {
     display: block;
     margin-top: 17px;
     width: 200px;
+  }
+  .dropMenuNoClicks {
+    visibility: visible;
+  }
+  .dropMenuOpen {
+    visibility: visible;
+  }
+  .dropMenuClose {
+    visibility: visible;
+  }
+  .navBar{
+    box-shadow: none;
   }
 }
 

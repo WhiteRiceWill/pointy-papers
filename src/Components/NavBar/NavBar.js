@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logoImg from '../../Assets/Other/PP-logo.png';
-import Hamburger from '../Hamburger/Hamburger.js';
+import Dropdown from '../Dropdown/Dropdown.js';
 
 export default class NavBar extends Component{
   render() {
     return (
       <div>
-        <Hamburger />
+        <Dropdown />
     <div className="navBar">
       <div className="logoDiv">
       <Link to='/'>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import arrowIcon from '../../Assets/Other/arrow.svg';
 
 
-export default class Hamburger extends Component{
+export default class Dropdown extends Component{
 
   constructor() {
     super();
@@ -28,9 +28,6 @@ export default class Hamburger extends Component{
   }
 
 
-//make cursor be a hand when on drop down menu@@@@@@@@@@@@@@@@@@@ onhover maybe
-
-
   render() {
     console.log("isToggleOn = " + this.state.isToggleOn);
     console.log("firstClickHappened = " + this.state.firstClickHappened);
@@ -40,7 +37,7 @@ export default class Hamburger extends Component{
     if (this.state.isToggleOn) {
       return (
         <div>
-        <div className="hamburgerMenu">
+        <div className="dropdownMenu">
           <img src={arrowIcon} alt="Mobile Menu Icon" className="arrowOpen" onClick={this.toggleMenu}/>
         </div>
       <div className="dropMenuOpen">
@@ -60,7 +57,7 @@ export default class Hamburger extends Component{
     else {
     return (
       <div>
-    <div className="hamburgerMenu">
+    <div className="dropdownMenu">
       <img src={arrowIcon} alt="Mobile Menu Icon" className="arrowClose" onClick={this.toggleMenu} />
     </div>
     <div className="dropMenuClose">
@@ -81,7 +78,7 @@ export default class Hamburger extends Component{
   else {
     return (
       <div>
-    <div className="hamburgerMenu">
+    <div className="dropdownMenu">
       <img src={arrowIcon} alt="Mobile Menu Icon" className="arrowNoClicks" onClick={this.toggleFirstClick} />
     </div>
     <div className="dropMenuNoClicks">
