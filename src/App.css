@@ -499,8 +499,11 @@ letter-spacing: .1px;
     }
     .downloadBtn {
       width: 145px;
+      font-size: 13px;
     }
-    
+    .downloadBtnHolder {
+      width: 145px;
+    }
     .downloadColumn2{
       margin-left: 155px;
     }
