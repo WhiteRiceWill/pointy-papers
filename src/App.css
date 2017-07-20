@@ -52,13 +52,13 @@
   width: auto;
   max-width: 777px;
   height: 2568px;
-  background-color: red;
+
 }
 
 .feedLeft {
   width: 380px;
 float:left;
-  background-color: blue;
+
 }
 
 .feedRight {
@@ -66,7 +66,7 @@ float:left;
   margin-left: 17px;
   margin-top: -17px;
   float:left;
-  background-color: blue;
+
 }
 
 .card {
@@ -362,7 +362,7 @@ letter-spacing: .1px;
   background-color: white;
   width: 100%;
   height: 188px;
-  top: 66px;
+  top: 64px;
   animation-name: open;
   animation-duration: .4s;
   z-index: 2;
@@ -399,6 +399,7 @@ letter-spacing: .1px;
   color: #909090;
   text-decoration: none;
 }
+
 
 
 
@@ -449,6 +450,81 @@ letter-spacing: .1px;
   .navBar{
     box-shadow: none;
   }
+  .aboutPage {
+    width: 380px;
+  }
+  .licensePage {
+    width: 380px;
+  }
+  .textBlock {
+    font-size: 15px;
+  }
+  .head{
+    font-size: 30px;
+  }
+  .headTwo {
+    font-size: 22px;
+  }
+  .miniHead{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .card{
+    width: 320px;
+    height: 531px;
+  }
+  .feedLeft{
+    width: 320px;
+  }
+  .feedRight{
+    width: 320px;
+  }
+  .feed{
+    width: 320px;
+    height: 4624px;
+    }
+    .welcomeCard {
+      width: 320px;
+    }
+    .welcomeText {
+      font-size: 32px;
+    }
+    .cardImg {
+      width: 300px;
+    }
+    .downloadBox {
+      width: 145px;
+    }
+    .downloadBtn {
+      width: 145px;
+    }
+    
+    .downloadColumn2{
+      margin-left: 155px;
+    }
+    .footerLine {
+      width: 320px;
+    }
+    .aboutPage {
+      width: 320px;
+    }
+    .licensePage {
+      width: 320px;
+    }
+    .textBlock {
+      font-size: 14px;
+    }
+    .head{
+      font-size: 28px;
+    }
+    .headTwo {
+      font-size: 20px;
+    }
+    .miniHead{
+      font-size: 20px;
+    }
 }
 
 

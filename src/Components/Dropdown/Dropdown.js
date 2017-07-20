@@ -29,8 +29,6 @@ export default class Dropdown extends Component{
 
 
   render() {
-    console.log("isToggleOn = " + this.state.isToggleOn);
-    console.log("firstClickHappened = " + this.state.firstClickHappened);
 
   if (this.state.firstClickHappened) {
 
