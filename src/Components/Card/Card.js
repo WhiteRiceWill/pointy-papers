@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Download from '../Download/Download.js';
 
+var title0A = "8K";
+var title0B = "(7680 x 4320)"
+
 var title1A = "5K";
 var title1B = "(5120 x 2880)";
 
@@ -47,14 +50,16 @@ export default class Card extends Component {
         </div>
 
         <div className="downloadColumn1">
+          <Download titleA={title0A} titleB={title0B} hasDesc={false} imgNum={this.props.imgNum} imgType="8K"/>
           <Download titleA={title1A} titleB={title1B} hasDesc={false} imgNum={this.props.imgNum} imgType="5K"/>
           <Download titleA={title2A} titleB={title2B} hasDesc={true} description={desc2} imgNum={this.props.imgNum} imgType="4K"/>
           <Download titleA={title3A} titleB={title3B} hasDesc={true} description={desc3} imgNum={this.props.imgNum} imgType="UltraWide"/>
           <Download titleA={title4A} titleB={title4B} hasDesc={true} description={desc4} imgNum={this.props.imgNum} imgType="MacBook"/>
-          <Download titleA={title5A} titleB={title5B} hasDesc={true} description={desc5} imgNum={this.props.imgNum} imgType="HD"/>
+
         </div>
 
         <div className="downloadColumn2">
+          <Download titleA={title5A} titleB={title5B} hasDesc={true} description={desc5} imgNum={this.props.imgNum} imgType="HD"/>
           <Download titleA={title6A} titleB={title6B} hasDesc={true} description={desc6} imgNum={this.props.imgNum} imgType="Tablet"/>
           <Download titleA={title7A} titleB={title7B} hasDesc={true} description={desc7} imgNum={this.props.imgNum} imgType="Smartphone"/>
           <Download titleA={title8A} titleB={title8B} hasDesc={false} imgNum={this.props.imgNum} imgType="GalaxyS8"/>
