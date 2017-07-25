@@ -18,6 +18,7 @@
   width: 300px;
   height: auto;
 }
+
 .logoDiv {
   width: 300px;
   height: auto;
@@ -51,21 +52,18 @@
   width: auto;
   max-width: 777px;
   height: 2568px;
-
 }
 
 .feedLeft {
   width: 380px;
-float:left;
-
+  float: left;
 }
 
 .feedRight {
   width: 380px;
   margin-left: 17px;
   margin-top: -17px;
-  float:left;
-
+  float: left;
 }
 
 .card {
@@ -242,7 +240,7 @@ float:left;
 
 .freeLink {
   color: #505050;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .licensePage {
@@ -263,13 +261,13 @@ float:left;
   min-height: 830px;
 }
 
-
 .head {
   font-family: 'Open Sans', sans-serif;
   color: #383838;
   font-size: 40px;
   font-weight: 700;
 }
+
 .headTwo {
   font-family: 'Open Sans', sans-serif;
   color: #383838;
@@ -285,16 +283,16 @@ float:left;
 }
 
 .textBlock {
-font-family: 'Lora', serif;
-color: #383838;
-line-height: 180%;
-font-size: 19px;
-letter-spacing: .1px;
+  font-family: 'Lora', serif;
+  color: #383838;
+  line-height: 180%;
+  font-size: 19px;
+  letter-spacing: .1px;
 }
 
 .bodyLink {
   color: #383838;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .dropdownMenu {
@@ -399,17 +397,6 @@ letter-spacing: .1px;
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 791px) {
   .feed {
     width: 380px;
@@ -426,7 +413,7 @@ letter-spacing: .1px;
     display: none;
   }
   .dropdownMenu {
-    display:block;
+    display: block;
   }
   .logoDiv {
     width: 200px;
@@ -446,7 +433,7 @@ letter-spacing: .1px;
   .dropMenuClose {
     visibility: visible;
   }
-  .navBar{
+  .navBar {
     box-shadow: none;
   }
   .aboutPage {
@@ -458,78 +445,76 @@ letter-spacing: .1px;
   .textBlock {
     font-size: 15px;
   }
-  .head{
+  .head {
     font-size: 30px;
   }
   .headTwo {
     font-size: 22px;
   }
-  .miniHead{
+  .miniHead {
     font-size: 22px;
   }
 }
 
 @media (max-width: 420px) {
-  .card{
+  .card {
     width: 320px;
     height: 531px;
   }
-  .feedLeft{
+  .feedLeft {
     width: 320px;
   }
-  .feedRight{
+  .feedRight {
     width: 320px;
   }
-  .feed{
+  .feed {
     width: 320px;
     height: 4624px;
-    }
-    .welcomeCard {
-      width: 320px;
-    }
-    .welcomeText {
-      font-size: 32px;
-    }
-    .cardImg {
-      width: 300px;
-    }
-    .downloadBox {
-      width: 145px;
-    }
-    .downloadBtn {
-      width: 145px;
-      font-size: 13px;
-    }
-    .downloadBtnHolder {
-      width: 145px;
-    }
-    .downloadColumn2{
-      margin-left: 155px;
-    }
-    .footerLine {
-      width: 320px;
-    }
-    .aboutPage {
-      width: 320px;
-    }
-    .licensePage {
-      width: 320px;
-    }
-    .textBlock {
-      font-size: 14px;
-    }
-    .head{
-      font-size: 28px;
-    }
-    .headTwo {
-      font-size: 20px;
-    }
-    .miniHead{
-      font-size: 20px;
-    }
+  }
+  .welcomeCard {
+    width: 320px;
+  }
+  .welcomeText {
+    font-size: 32px;
+  }
+  .cardImg {
+    width: 300px;
+  }
+  .downloadBox {
+    width: 145px;
+  }
+  .downloadBtn {
+    width: 145px;
+    font-size: 13px;
+  }
+  .downloadBtnHolder {
+    width: 145px;
+  }
+  .downloadColumn2 {
+    margin-left: 155px;
+  }
+  .footerLine {
+    width: 320px;
+  }
+  .aboutPage {
+    width: 320px;
+  }
+  .licensePage {
+    width: 320px;
+  }
+  .textBlock {
+    font-size: 14px;
+  }
+  .head {
+    font-size: 28px;
+  }
+  .headTwo {
+    font-size: 20px;
+  }
+  .miniHead {
+    font-size: 20px;
+  }
 }
-
-
 
 @keyframes open {
     0%   {transform: translate(0, -188px)};

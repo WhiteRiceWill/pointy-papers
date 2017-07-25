@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
-export default class Welcome extends Component{
+export default class Welcome extends Component {
   render() {
     return (
       <div className="welcomeCard">
@@ -10,8 +10,8 @@ export default class Welcome extends Component{
             A collection of
           </div>
           <div>
-              <Link to='/license' className='freeLink'>free</Link>
-              &nbsp;to download,
+            <Link to='/license' className='freeLink'>free</Link>
+            &nbsp;to download,
           </div>
           <div>
             minimalist wallpapers.

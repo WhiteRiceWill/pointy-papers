@@ -1,12 +1,8 @@
 import React, {Component} from 'react';
-import { Switch, Route } from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import Feed from '../Feed/Feed.js';
 import About from '../About/About.js';
 import License from '../License/License.js';
-
-
-
-
 
 const Main = () => (
   <main>
