@@ -40,7 +40,7 @@ var desc7 = "Also fits 750x1334";
 
 export default class Card extends Component {
   render() {
-    const mainImg = require('../../Assets/Paper' + this.props.imgNum + '/PP' + this.props.imgNum + '-4K.png');
+    const mainImg = require('../../Assets/Paper' + this.props.imgNum + '/PP' + this.props.imgNum + '-M.png');
 
     return (
       <div className="card">
