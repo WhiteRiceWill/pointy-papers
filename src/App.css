@@ -516,6 +516,7 @@
   }
 }
 
+
 @keyframes open {
     0%   {transform: translate(0, -188px)};
     100% {transform: translate(0, 0)};
