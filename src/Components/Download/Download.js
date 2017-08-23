@@ -42,6 +42,7 @@ export default class Download extends Component {
   }
 
 
+
   resetTimer() {
     this.setState({currentCount: 2});
   }
