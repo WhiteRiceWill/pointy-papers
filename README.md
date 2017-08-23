@@ -9,17 +9,12 @@ Live version: http://pointypapers.com
 
 ## Getting Started Locally
 
-Install dependencies:
-
-```
-npm install
-```
-
-Clone project and start dev server:
+Clone project, install dependencies, and start dev server:
 
 ```
 git clone https://github.com/WhiteRiceWill/pointy-papers.git
 cd pointy-papers/
+npm install
 npm start
 ```
 
